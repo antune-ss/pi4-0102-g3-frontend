@@ -28,5 +28,5 @@ sequenceDiagram
     Banco-->>Backend: Gravação confirmada
 ```
 
-**Contratos usados:** CT1 `publicarLeitura`, CT2 `entregarLeitura`, CT3 `medicao`.
+**Contratos usados:** CT1 `publishReading`, CT2 `sensor_reading`
 

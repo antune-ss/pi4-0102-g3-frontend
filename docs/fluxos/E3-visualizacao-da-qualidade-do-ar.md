@@ -29,5 +29,5 @@ sequenceDiagram
     Frontend-->>Coordenador: Atualiza os indicadores em tempo real
 ```
 
-**Contratos usados:** CT3 `medicao`, CT4 `novaMedicao`, CT5 `consultarMedicaoAtual`.
+**Contratos usados:** CT2 `sensor_reading`, CT5 `listReadings`
 

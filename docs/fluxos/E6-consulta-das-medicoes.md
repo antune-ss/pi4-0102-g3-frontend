@@ -27,5 +27,5 @@ sequenceDiagram
     Frontend-->>Coordenador: Exibe a tabela de medições
 ```
 
-**Contratos usados:** CT3 `medicao`, CT8 `consultarHistorico`.
+**Contratos usados:** CT2 `sensor_reading` e CT5 `listReadings`.
 

@@ -30,5 +30,5 @@ sequenceDiagram
     IoT->>IoT: Aciona o sinal sonoro
 ```
 
-**Contratos usados:** CT4 `novaMedicao`, CT6 `publicarAlertaSonoro`, CT7 `entregarAlertaSonoro`.
+**Contratos usados:** CT1 `publishReading`, CT2 `sensor_reading`, CT3 `sensorStatus`, CT4 `deviceCommand` e CT5 `listReadings`
 

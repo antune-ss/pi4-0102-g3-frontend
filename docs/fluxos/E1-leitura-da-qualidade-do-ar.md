@@ -26,5 +26,5 @@ sequenceDiagram
     Backend->>Backend: Valida os campos recebidos
 ```
 
-**Contratos usados:** CT1 `publicarLeitura`, CT2 `entregarLeitura`.
+**Contratos usados:** CT1 `publishReading`
 

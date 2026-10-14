@@ -29,5 +29,4 @@ sequenceDiagram
     Frontend-->>Coordenador: Exibe o relatório
 ```
 
-**Contratos usados:** CT3 `medicao`, CT9 `consultarRelatorioMedias`.
-
+**Contratos usados:** CT2 `sensor_reading` e CT6 `getAverage`.

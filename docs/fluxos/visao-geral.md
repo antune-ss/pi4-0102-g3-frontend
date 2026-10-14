@@ -6,11 +6,11 @@ Esta página descreve os módulos que compõem o sistema CO₂NNECT e como eles 
 
 | Módulo | O que faz | Tecnologia | Repositório | Responsável |
 | :--- | :--- | :--- | :--- | :--- |
-| Frontend | Telas do dashboard para visualização de dados e alertas | Ainda a decidir | pi4-0102-g9-frontend | Giovana |
-| Backend | Recebe leituras do Broker, valida e guarda no banco, além de responder às consultas do dashboard | Java | pi4-0102-g9-backend-1 | Gustavo Antunes |
-| Dispositivo IoT | Realiza a leitura do sensor SCD30 via I2C e publica os dados na rede | C/C++ (ESP32) | pi4-0102-g9-backend-2 | Yuri |
+| Frontend | Telas do dashboard para visualização de dados e alertas | Ainda a decidir | pi4-0102-g9-frontend | Giovana, Julia e William |
+| Backend | Recebe leituras do Broker, valida e guarda no banco, além de responder às consultas do dashboard | Java | pi4-0102-g9-backend-1 | Gustavo, Vitor e Bruna |
+| Dispositivo IoT | Realiza a leitura do sensor SCD30 via I2C e publica os dados na rede | C/C++ (ESP32) | pi4-0102-g9-backend-2 | Yuri e William |
 | Banco | Guarda o histórico de clientes, ambientes e medições | PostgreSQL | junto do Backend | Julia |
-| Broker MQTT | Intermedia a troca de mensagens entre o ESP32 e o servidor Java | Eclipse Mosquitto | junto do Backend | Gustavo Antunes, Yuri |
+| Broker MQTT | Intermedia a troca de mensagens entre o ESP32 e o servidor Java | Eclipse Mosquitto | junto do Backend | William, Yuri e Gustavo |
 
 ## Diagrama de contêineres
 
